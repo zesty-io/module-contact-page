@@ -1,0 +1,77 @@
+
+  - id: "c88a-33fc-cc10"
+    web:
+      metaDescription: ""
+      metaTitle: "https://hv6zw0bs.media.zestyio.com/yyoutube.png"
+      metaLinkText: "https://hv6zw0bs.media.zestyio.com/yyoutube.png"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 10
+      listed: true
+    data:
+      img_url: "https://hv6zw0bs.media.zestyio.com/youtube.png"
+      social_url: "https://www.youtube.com/c/Zestyio"
+  - id: "b4ea-3f75-d3e1"
+    web:
+      metaDescription: ""
+      metaTitle: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
+      metaLinkText: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 12
+      listed: true
+    data:
+      img_url: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
+      social_url: "https://www.linkedin.com/company/zesty-io/"
+  - id: "890b-a5d7-2bc7"
+    web:
+      metaDescription: ""
+      metaTitle: "https://hv6zw0bs.media.zestyio.com/facebook.png"
+      metaLinkText: "https://hv6zw0bs.media.zestyio.com/facebook.png"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 11
+      listed: true
+    data:
+      img_url: "https://hv6zw0bs.media.zestyio.com/facebook.png"
+      social_url: "https://www.facebook.com/zestyio"
+  - id: "f155-12fe-ceb1"
+    web:
+      metaDescription: ""
+      metaTitle: "https://hv6zw0bs.media.zestyio.com/twitter.png"
+      metaLinkText: "https://hv6zw0bs.media.zestyio.com/twitter.png"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 9
+      listed: true
+    data:
+      img_url: "https://hv6zw0bs.media.zestyio.com/twitter.png"
+      social_url: "https://twitter.com/zestyio"

@@ -1,0 +1,111 @@
+
+  - id: "191b-d3b6-50e4"
+    web:
+      metaDescription: "It's a wonderful company to work for, the facilities are great, the people are happy, and each resident that comes through the doors are number one priority for"
+      metaTitle: "Krista Perron"
+      metaLinkText: "Krista Perron"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 119
+      listed: true
+    data:
+      employee_headshot: "https://19cwgg40.media.zestyio.com/Krista_ft9s4wb3.webp"
+      employee_name: "Krista Perron"
+      employee_title: "Environmental Specialist"
+      sort_order: 5
+      testimonial_content: "It's a wonderful company to work for, the facilities are great, the people are happy, and each resident that comes through the doors are number one priority for everyone."
+  - id: "60c7-d523-018d"
+    web:
+      metaDescription: "Amazing company that truly values and cares about their residents and employees. Best company that I have ever worked for in my 10 years in healthcare."
+      metaTitle: "Jen E. Koenig"
+      metaLinkText: "Jen E. Koenig"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 118
+      listed: true
+    data:
+      employee_headshot: "https://19cwgg40.media.zestyio.com/Jen_ru5n6hdw.webp"
+      employee_name: "Jen E. Koenig"
+      employee_title: "Registered Nurse"
+      sort_order: 4
+      testimonial_content: "Amazing company that truly values and cares about their residents and employees. Best company that I have ever worked for in my 10 years in healthcare."
+  - id: "e37c-55b5-d566"
+    web:
+      metaDescription: "You will work with a great group of nurses and CNAs. The best SNF in Redding."
+      metaTitle: "Anna Barnes"
+      metaLinkText: "Anna Barnes"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 117
+      listed: true
+    data:
+      employee_headshot: "https://19cwgg40.media.zestyio.com/Anna_3ofcxgzy.webp"
+      employee_name: "Anna Barnes"
+      employee_title: "Patient Technician"
+      sort_order: 3
+      testimonial_content: "You will work with a great group of nurses and CNAs. The best SNF in Redding."
+  - id: "f9a7-61c3-5b1c"
+    web:
+      metaDescription: "Not only do I love my job at Marquis, but I think we have one of the best nursing staffs and administration around. Not only do we give 110% to care for our res"
+      metaTitle: "Christina Sundoen"
+      metaLinkText: "Christina Sundoen"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 116
+      listed: true
+    data:
+      employee_headshot: "https://19cwgg40.media.zestyio.com/Christina-Headshot.webp"
+      employee_name: "Christina Sundoen"
+      employee_title: "Registered Nurse"
+      sort_order: 2
+      testimonial_content: "Not only do I love my job at Marquis, but I think we have one of the best nursing staffs and administration around. Not only do we give 110% to care for our residents and patients but we care on a personal level as well."
+  - id: "1836-b798-f7b1"
+    web:
+      metaDescription: "It's a great company to work for, and they encourage you to work toward your goals."
+      metaTitle: "Jamie Swartout"
+      metaLinkText: "Jamie Swartout"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 115
+      listed: true
+    data:
+      employee_headshot: "https://19cwgg40.media.zestyio.com/Jamie-Headshot.webp"
+      employee_name: "Jamie Swartout"
+      employee_title: "CNA"
+      sort_order: 1
+      testimonial_content: "It's a great company to work for, and they encourage you to work toward your goals."

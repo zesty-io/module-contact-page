@@ -1,0 +1,61 @@
+
+  - id: "0691-73cd-a624"
+    web:
+      metaDescription: ""
+      metaTitle: "Email"
+      metaLinkText: "Email"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 7
+      listed: true
+    data:
+      contact_details: "sales@zesty.io"
+      contact_label: "Email"
+      icons: "<i class=\"fa-solid fa-envelope\"> </i>"
+  - id: "33d2-3fa4-e5ce"
+    web:
+      metaDescription: ""
+      metaTitle: "Address"
+      metaLinkText: "Address"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 5
+      listed: true
+    data:
+      contact_details: "1045 Sixth Ave, San Diego, CA 92101"
+      contact_label: "Address"
+      icons: "<i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>"
+  - id: "2e30-d93e-226b"
+    web:
+      metaDescription: ""
+      metaTitle: "Phone"
+      metaLinkText: "Phone"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 6
+      listed: true
+    data:
+      contact_details: "+1 619-486-9090"
+      contact_label: "Phone"
+      icons: "<i class=\"fa fa-phone\" aria-hidden=\"true\"> </i>"

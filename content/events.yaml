@@ -1,0 +1,67 @@
+
+  - id: "da91-200d-76a1"
+    web:
+      metaDescription: "4560 SE International Way #100, Milwaukie, OR 97222"
+      metaTitle: "RN Hiring Day"
+      metaLinkText: "RN Hiring Day"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 123
+      listed: true
+    data:
+      event_date: "2022-11-17"
+      event_name: "RN Hiring Day"
+      event_time: "8am-4pm PST"
+      location_address: "4560 SE International Way #100, Milwaukie, OR 97222"
+      location_google_maps: "https://goo.gl/maps/tnginDQDNM47Av6aA"
+  - id: "137d-ec2c-0637"
+    web:
+      metaDescription: "4560 SE International Way #100, Milwaukie, OR 97222"
+      metaTitle: "Speak with an Employee"
+      metaLinkText: "Speak with an Employee"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 122
+      listed: true
+    data:
+      event_date: "2022-11-15"
+      event_name: "Speak with an Employee"
+      event_time: "2pm-3pm PST"
+      location_address: "4560 SE International Way #100, Milwaukie, OR 97222"
+      location_google_maps: "https://goo.gl/maps/tnginDQDNM47Av6aA"
+  - id: "840e-e76a-7525"
+    web:
+      metaDescription: "4560 SE International Way #100, Milwaukie, OR 97222"
+      metaTitle: "Recruiting Open House"
+      metaLinkText: "Recruiting Open House"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 121
+      listed: true
+    data:
+      event_date: "2022-11-10"
+      event_name: "Recruiting Open House"
+      event_time: "3pm-5pm PST"
+      location_address: "4560 SE International Way #100, Milwaukie, OR 97222"
+      location_google_maps: "https://goo.gl/maps/tnginDQDNM47Av6aA"

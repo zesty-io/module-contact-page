@@ -1,0 +1,95 @@
+
+  - description: ""
+    label: "Contact"
+    name: "contact"
+    sort: 2
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/contact.tpl"
+    content: "/content/contact.yaml"
+    fields:
+      - name: "map"
+        label: "map"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "header_text"
+        label: "header text"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "contact details"
+    name: "contact_details"
+    sort: 4
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "contact"
+    content: "/content/contact_details.yaml"
+    fields:
+      - name: "contact_label"
+        label: "contact label"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "contact_details"
+        label: "contact details"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "icons"
+        label: "icons"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "socials"
+    name: "socials"
+    sort: 8
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: "contact"
+    content: "/content/socials.yaml"
+    fields:
+      - name: "img_url"
+        label: "img url"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "social_url"
+        label: "social url"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
