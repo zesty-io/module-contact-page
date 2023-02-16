@@ -1,102 +1,115 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<section class="container-fluid section-bg-image" style="background-image: linear-gradient(rgba(34, 34, 34, 0.6),rgba(34, 34, 34, 0.6)),url({{this.background_image.getImage()}})">
+    <div class="container text-light py-4"> 
 
-(** default code https://zesty.org/services/web-engine/introduction-to-parsley/parsley-autolayout **)
+        <!-- Header-->
+        <header class="row text-center pb-4">
+            <h1 class="fs-2">{{this.header}}</h1>
+            <div class="col-md-6 offset-md-3"> 
+                <p>{{this.header_text}}</p>
+            </div>
+        </header>
 
-<section class="contact">
-    <div class="row">
-        <div class="content col-md-6 offset-md-3">
-            <h2>Contact Us</h2>
-            <p> 
-                {{this.header_text}}
-            </p>
-            
-        </div>
-     </div>   
-<br>
-       <div class="container details-map">
-            <div class="row">
-                <div class="contactInfo col-md-4 offset-md-2"> 
-                    {{each contact_details as details}}
-                    <div class="box">
-                        <div class="icon"> {{details.icons}} </div>
-                        <div class="text">
-                            <h3>{{details.contact_label}}</h3>
-                            <p>{{details.contact_details}}</p>
-                        </div> 
-                    </div>
-                    {{end-each}}
+         <!-- Contact Details-->
+        <div class="row row-gap-5">
+            <div class="col-sm-5 offset-sm-2 d-sm-flex flex-column flex-wrap row-gap-3">
+                {{each contact_details as details sort by details.sort}}
+               <div class="d-sm-flex flex-column row-gap-1">
+                    <div class="d-flex column-gap-3 ">
+                        <span style="height: 52px; width:52px;" class="bg-light d-flex align-items-center justify-content-center rounded-circle text-dark fs-5">
+                           <i class="bi {{details.icons}}" aria-hidden="true"></i> 
+                        </span>                
+                        <div class="col">
+                            <h3 class="text-info"> {{details.contact_label}}</h3>
+                            <p class="">{{details.contact_info}}</p>
+                        </div>                 
+                    </div>   
+                </div>
+                {{end-each}}
+                <div> 
 
-                    <div class="socials"> 
-                        <h3> Connect with us:</h3>
-                        <div class="social-content"> 
-                        {{each socials as social}}
-                            <div class="circle">
-                                 <a href="{{social.social_url}}" target="_blank"><img src="{{social.img_url}}"></a>
-                            </div>
-                        {{end-each}}
+                     <!-- Social Media Images and Links-->
+                   <h4> Connect with us: </h4>
+                   <div class="d-flex column-gap-2">
+                       {{each socials as social sort by social.sort}} 
+                        <div>
+                           <a href="{{social.social_url}}" target="_blank"><img class="rounded-circle" src="{{social.social_image.getImage(45,45)}}"></a>
                         </div>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-md-5"> 
-                    <div class="card map" style="padding:20px;">
-                        {{this.map}}
-                    </div>
-                </div>
+                        {{/each}}
+                   </div>
 
-                
+                </div>
+            </div>
+            
+             <!-- Map -->
+            <div style="min-width: 200px;" class="col-sm-4 px-3">
+                <iframe class="rounded" src="{{this.map}}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
-            <div class="container form">
-                <div class="row">
-                    <div class="col-lg-9 offset-lg-2"> 
-                        <div class="card form" style="padding:20px; height: 100%;"> 
-                            <form>
-                            <h3> Send a message: </h3>
-                                <div class="row"> 
-                                    <div class="col-md-6"> 
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">First Name</label>
-                                            <input type="text" class="form-control" placeholder="Jane" required="Please input your First name">
-                                        </div>
-                                    </div>
+        <div class="row mt-5">
+             <!-- Check if the form is already submitted-->
+            {{if {post_var.email} }}
 
-                                    <div class="col-md-6"> 
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">Last Name</label>
-                                            <input type="text" class="form-control" placeholder="Doe" required="Please input your Last name">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row"> 
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">Phone</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+1 666-789-0000" required="Please input your Phone number!">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="exampleFormControlInput1">Email</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                                        </div>
-                                    </div>
-                                </div>
-                                    
-                                    
+             <!-- When the form is submitted, it will display thank you text-->
+            <h3 class="text-center"> {{this.thankyou_text}} </h3>
+
+            {{else}}
+            
+             <!-- If nothing submitted yet, the form will be displayed-->
+            <h3 class="text-center"> {{this.form_header_text}} </h3>
+            <div class="col-md-9 offset-md-2 p-0" id="form">
+                <div class="form text-light px-3 py-3 pt-1"> 
+                    <form action="#form" method="POST" enctype="multipart/form-data">
+
+                     <!-- The two Input Fields below are needed to record form data into Zesty Leads-->
+                      <!-- Go to link for more Leads details: https://zesty.org/tools/guides/how-to-create-a-lead-form -->
+                    <input name="zlf" value="Contact Form Message" type="hidden">
+                    <input name="zcf" value="1" type="hidden"> 
+
+                        <div class="row align-items-start fw-bold">
+                            <div class="col-sm-6 d-flex flex-column row-gap-2">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Type your Message</label>
-                                <textarea class="form-control" required="required" style="resize: none;" > </textarea>
+                                        <label for="firstname">First Name</label>
+                                        <input name="firstname" id="firstname" type="text" class="form-control" placeholder="Jane" required>
                                 </div>
-                                <div class="inputBox">
-                                    <input class="btn btn-success" type="Submit" name="" value="Send">
+                                <div class="form-group">
+                                        <label for="lastname">Last Name</label>
+                                        <input name="lastname" id="lastname" type="text" class="form-control" placeholder="Doe" required>
                                 </div>
-                            </form>
-                        </div> 
-                    </div>
-                </div>
 
+                                <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="myemail@gmail.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                            <label for="tel">Phone</label>
+                                            <input name="tel" type="tel" class="form-control" id="tel" placeholder="+1 666-789-0000" required>
+                                </div>
+
+                            </div> 
+
+                            <div class="col">
+                                 <div class="form-group">
+                                    <label for="msg">Message</label>
+                                    <textarea name="msg" class="form-control" id="msg" rows="10" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <input type="hidden" name="{{setting.contact-form.honeypot}}" value="">
+                                        <!--
+                                        Honeypot in the input field will help to detect bots in submitting forms automatically
+                                        See here for more info about honeypot: https://zesty.org/tools/guides/how-to-prevent-bots-from-submitting-your-form#setting-up-the-honeypot
+                                        -->
+                        <div class="row mt-3">
+                            <input class="btn btn-success" type="Submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div> 
             </div>
+
+            {{/if}}
+        </div>
+    </div>
 </section>

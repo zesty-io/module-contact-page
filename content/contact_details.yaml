@@ -1,25 +1,5 @@
 
-  - id: "0691-73cd-a624"
-    web:
-      metaDescription: ""
-      metaTitle: "Email"
-      metaLinkText: "Email"
-      metaKeywords: null
-      pathPart: null
-      path: null
-      sitemapPriority: -1
-      canonicalTagMode: 1
-      canonicalQueryParamWhitelist: null
-      canonicalTagCustomValue: null
-      parent: "/"
-    meta:
-      sort: 7
-      listed: true
-    data:
-      contact_details: "sales@zesty.io"
-      contact_label: "Email"
-      icons: "<i class=\"fa-solid fa-envelope\"> </i>"
-  - id: "33d2-3fa4-e5ce"
+  - id: "0fdb-dc26-5c11"
     web:
       metaDescription: ""
       metaTitle: "Address"
@@ -33,13 +13,14 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 5
+      sort: 25
       listed: true
     data:
-      contact_details: "1045 Sixth Ave, San Diego, CA 92101"
+      contact_info: "1045 Sixth Ave, San Diego, CA 92101"
       contact_label: "Address"
-      icons: "<i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i>"
-  - id: "2e30-d93e-226b"
+      icons: "bi-geo-alt-fill"
+      sort: 2
+  - id: "2133-7ca1-441f"
     web:
       metaDescription: ""
       metaTitle: "Phone"
@@ -53,9 +34,31 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 6
+      sort: 24
       listed: true
     data:
-      contact_details: "+1 619-486-9090"
+      contact_info: "+1 619-486-9090"
       contact_label: "Phone"
-      icons: "<i class=\"fa fa-phone\" aria-hidden=\"true\"> </i>"
+      icons: "bi-telephone-fill"
+      sort: 1
+  - id: "9c09-e7f9-4969"
+    web:
+      metaDescription: ""
+      metaTitle: "Email"
+      metaLinkText: "Email"
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 23
+      listed: true
+    data:
+      contact_info: "sales@zesty.io"
+      contact_label: "Email"
+      icons: "bi-envelope-fill"
+      sort: null

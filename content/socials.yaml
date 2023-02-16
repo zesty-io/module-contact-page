@@ -1,9 +1,9 @@
 
-  - id: "c88a-33fc-cc10"
+  - id: "7e48-d310-6fa5"
     web:
       metaDescription: ""
-      metaTitle: "https://hv6zw0bs.media.zestyio.com/yyoutube.png"
-      metaLinkText: "https://hv6zw0bs.media.zestyio.com/yyoutube.png"
+      metaTitle: null
+      metaLinkText: null
       metaKeywords: null
       pathPart: null
       path: null
@@ -13,16 +13,17 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 10
+      sort: 21
       listed: true
     data:
-      img_url: "https://hv6zw0bs.media.zestyio.com/youtube.png"
-      social_url: "https://www.youtube.com/c/Zestyio"
-  - id: "b4ea-3f75-d3e1"
+      social_image: "https://hv6zw0bs.media.zestyio.com/twitter.png"
+      social_url: "https://twitter.com/zestyio?"
+      sort: 3
+  - id: "6ab8-1c35-9119"
     web:
       metaDescription: ""
-      metaTitle: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
-      metaLinkText: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
+      metaTitle: null
+      metaLinkText: null
       metaKeywords: null
       pathPart: null
       path: null
@@ -32,16 +33,17 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 12
+      sort: 20
       listed: true
     data:
-      img_url: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
+      social_image: "https://hv6zw0bs.media.zestyio.com/linkedin.png"
       social_url: "https://www.linkedin.com/company/zesty-io/"
-  - id: "890b-a5d7-2bc7"
+      sort: 2
+  - id: "3835-3dca-1cb1"
     web:
       metaDescription: ""
-      metaTitle: "https://hv6zw0bs.media.zestyio.com/facebook.png"
-      metaLinkText: "https://hv6zw0bs.media.zestyio.com/facebook.png"
+      metaTitle: null
+      metaLinkText: null
       metaKeywords: null
       pathPart: null
       path: null
@@ -51,16 +53,17 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 11
+      sort: 19
       listed: true
     data:
-      img_url: "https://hv6zw0bs.media.zestyio.com/facebook.png"
-      social_url: "https://www.facebook.com/zestyio"
-  - id: "f155-12fe-ceb1"
+      social_image: "https://hv6zw0bs.media.zestyio.com/youtube.png"
+      social_url: "https://www.youtube.com/@Zestyio"
+      sort: 1
+  - id: "0a3d-e840-ae6b"
     web:
       metaDescription: ""
-      metaTitle: "https://hv6zw0bs.media.zestyio.com/twitter.png"
-      metaLinkText: "https://hv6zw0bs.media.zestyio.com/twitter.png"
+      metaTitle: null
+      metaLinkText: null
       metaKeywords: null
       pathPart: null
       path: null
@@ -70,8 +73,9 @@
       canonicalTagCustomValue: null
       parent: "/"
     meta:
-      sort: 9
+      sort: 18
       listed: true
     data:
-      img_url: "https://hv6zw0bs.media.zestyio.com/twitter.png"
-      social_url: "https://twitter.com/zestyio"
+      social_image: "https://hv6zw0bs.media.zestyio.com/facebook.png"
+      social_url: "https://web.facebook.com/zestyio"
+      sort: null

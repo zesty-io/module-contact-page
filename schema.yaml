@@ -1,95 +1,160 @@
-
-  - description: ""
-    label: "Contact"
-    name: "contact"
-    sort: 2
-    listed: true
-    hasRoute: true
-    showAsTable: false
-    parent: null
-    view: "/views/contact.tpl"
-    content: "/content/contact.yaml"
-    fields:
-      - name: "map"
-        label: "map"
-        description: ""
-        datatype: "textarea"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "header_text"
-        label: "header text"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-  - description: ""
-    label: "contact details"
-    name: "contact_details"
-    sort: 4
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "contact"
-    content: "/content/contact_details.yaml"
-    fields:
-      - name: "contact_label"
-        label: "contact label"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "contact_details"
-        label: "contact details"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "icons"
-        label: "icons"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-  - description: ""
-    label: "socials"
-    name: "socials"
-    sort: 8
-    listed: true
-    hasRoute: false
-    showAsTable: false
-    parent: "contact"
-    content: "/content/socials.yaml"
-    fields:
-      - name: "img_url"
-        label: "img url"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
-      - name: "social_url"
-        label: "social url"
-        description: ""
-        datatype: "text"
-        sort: 10000
-        required: false
-        relationship: null
-        settings:
-          list: true
+- description: null
+  label: "Contact"
+  name: "contact"
+  sort: 2
+  listed: true
+  hasRoute: true
+  showAsTable: false
+  parent: null
+  view: "/views/contact.tpl"
+  content: "/content/contact.yaml"
+  fields:
+    - name: "map"
+      label: "map"
+      description: "The value of this field should be the src link of the Google map <iframe> tag"
+      datatype: "textarea"
+      sort: 3
+      required: false
+      relationship: null
+      settings:
+        list: true
+        tooltip: "asd"
+    - name: "header_text"
+      label: "header text"
+      description: ""
+      datatype: "text"
+      sort: 1
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "background_image"
+      label: "background image"
+      description: ""
+      datatype: "images"
+      sort: 0
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "header"
+      label: "header"
+      description: ""
+      datatype: "text"
+      sort: 2
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "form_header_text"
+      label: "Form Header Text"
+      description: ""
+      datatype: "text"
+      sort: 4
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "thankyou_text"
+      label: "Thankyou Text"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+- description: ""
+  label: "Socials"
+  name: "socials"
+  sort: 17
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "contact"
+  content: "/content/socials.yaml"
+  fields:
+    - name: "sort"
+      label: "Sort"
+      description: ""
+      datatype: "sort"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "social_image"
+      label: "Social Image"
+      description: ""
+      datatype: "images"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "social_url"
+      label: "Social URL"
+      description: ""
+      datatype: "link"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+- description: ""
+  label: "Contact Details"
+  name: "contact_details"
+  sort: 22
+  listed: true
+  hasRoute: false
+  showAsTable: false
+  parent: "contact"
+  content: "/content/contact_details.yaml"
+  fields:
+    - name: "sort"
+      label: "Sort"
+      description: ""
+      datatype: "sort"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "contact_label"
+      label: "Contact Label"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "contact_info"
+      label: "Contact Info"
+      description: ""
+      datatype: "text"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+    - name: "icons"
+      label: "Icons"
+      description: ""
+      datatype: "dropdown"
+      sort: 10000
+      required: false
+      relationship: null
+      settings:
+        list: true
+        options:
+          bi-briefcase-fill: "Briefcase"
+          bi-calendar3: "Calendar"
+          bi-check-lg: "Check"
+          bi-envelope-fill: "Envelope"
+          bi-geo-alt-fill: "Map pin"
+          bi-house-door-fill: "Home"
+          bi-info-circle-fill: "Info"
+          bi-pencil-square: "Pencil-Paper"
+          bi-phone-fill: "Mobile"
+          bi-telephone-fill: "Telephone"
