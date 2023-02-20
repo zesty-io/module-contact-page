@@ -14,7 +14,7 @@
             <div class="col-sm-5 offset-sm-2 d-sm-flex flex-column flex-wrap row-gap-3">
                 {{each contact_details as details sort by details.sort}}
                <div class="d-sm-flex flex-column">
-                    <div class="d-flex gap-3 ">
+                    <div class="d-flex gap-2 ">
                         <span style="height: 52px; width:52px;" class="bg-light d-flex align-items-center justify-content-center rounded-circle text-dark fs-5">
                            <i class="bi {{details.icons}}" aria-hidden="true"></i> 
                         </span>                
