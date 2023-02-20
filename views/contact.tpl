@@ -13,8 +13,8 @@
         <div class="row row-gap-5">
             <div class="col-sm-5 offset-sm-2 d-sm-flex flex-column flex-wrap row-gap-3">
                 {{each contact_details as details sort by details.sort}}
-               <div class="d-sm-flex flex-column row-gap-1">
-                    <div class="d-flex column-gap-3 ">
+               <div class="d-sm-flex flex-column">
+                    <div class="d-flex gap-3 ">
                         <span style="height: 52px; width:52px;" class="bg-light d-flex align-items-center justify-content-center rounded-circle text-dark fs-5">
                            <i class="bi {{details.icons}}" aria-hidden="true"></i> 
                         </span>                
@@ -29,10 +29,10 @@
 
                      <!-- Social Media Images and Links-->
                    <h4> Connect with us: </h4>
-                   <div class="d-flex column-gap-2">
+                   <div class="d-flex gap-2">
                        {{each socials as social sort by social.sort}} 
                         <div>
-                           <a href="{{social.social_url}}" target="_blank"><img class="rounded-circle" src="{{social.social_image.getImage(45,45)}}"></a>
+                           <a href="{{social.social_url}}" target="_blank"><img class="rounded-circle" src="{{social.social_image.getImage()}}?width=45"></a>
                         </div>
                         {{/each}}
                    </div>
@@ -69,30 +69,30 @@
                         <div class="row align-items-start fw-bold">
                             <div class="col-sm-6 d-flex flex-column row-gap-2">
                                 <div class="form-group">
-                                        <label for="firstname">First Name</label>
-                                        <input name="firstname" id="firstname" type="text" class="form-control" placeholder="Jane" required>
+                                        <label for="exampleFormControlInput1">First Name</label>
+                                        <input name="firstname" type="text" class="form-control" placeholder="Jane" required>
                                 </div>
                                 <div class="form-group">
-                                        <label for="lastname">Last Name</label>
-                                        <input name="lastname" id="lastname" type="text" class="form-control" placeholder="Doe" required>
-                                </div>
-
-                                <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input name="email" id="email" type="email" class="form-control" placeholder="myemail@gmail.com" required>
+                                        <label for="exampleFormControlInput1">Last Name</label>
+                                        <input name="lastname" type="text" class="form-control" placeholder="Doe" required>
                                 </div>
 
                                 <div class="form-group">
-                                            <label for="tel">Phone</label>
-                                            <input name="tel" type="tel" class="form-control" id="tel" placeholder="+1 666-789-0000" required>
+                                        <label for="exampleFormControlInput1">Email</label>
+                                        <input name="email" type="email" class="form-control" placeholder="myemail@gmail.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                            <label for="exampleFormControlInput1">Phone</label>
+                                            <input name="tel" type="tel" class="form-control" id="exampleFormControlInput1" placeholder="+1 666-789-0000" required>
                                 </div>
 
                             </div> 
 
                             <div class="col">
                                  <div class="form-group">
-                                    <label for="msg">Message</label>
-                                    <textarea name="msg" class="form-control" id="msg" rows="10" required></textarea>
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea name="msg" class="form-control" id="exampleFormControlTextarea1" rows="10" required></textarea>
                                 </div>
                             </div>
                         </div>
