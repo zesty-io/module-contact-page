@@ -6,10 +6,7 @@
 
 Based from <img src="https://user-images.githubusercontent.com/55866499/217280250-1392ec17-2d71-4f8b-ae17-6a782a992b43.png" style="margin-left:10px" width="15" height="15" alr="Zesty Logo"> Bootstrap framework powered by <img src="https://brand.zesty.io/zesty-io-logo.svg" style="margin-left:10px" width="15" height="15" alr="Zesty Logo"> Zesty. A simple contact landing page with forms connected to [Zesty leads](https://zesty.org/tools/guides/how-to-create-a-lead-form).
 
-> **Warning**: Installing this module may affect existing content models that are using bootstrap stylings. Since the default bootstrap files will automatically be installed in the instance.
-
-📝 Since this module is created using Bootstrap, the [Module Bootstrap 5](https://github.com/zesty-io/module-bootstrap5) is pre requisite and needed to be installed in the instance for the stylings to work.
-
+> **Warning**: Installing this module may affect existing content models that are using bootstrap stylings. Since this module is created using Bootstrap, the [Module Bootstrap 5](https://github.com/zesty-io/module-bootstrap5) is pre requisite and will be installed automatically in the instance for the stylings to work.
 
 All **Contact Page** content items can be modify in the **Zesty Instance Manager**. Click **Content** -> **Contact**
 
